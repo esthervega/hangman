@@ -3,7 +3,7 @@
 <project name="Hangman" default="help" basedir=".">
   <!-- Define the properties used by the build -->
   <property name="app.name"      value="hangman"/>
-  <property name="tcserver.home" value="C:/Java/Tomcat" />
+  <property name="tcserver.home" value="/home/esther/apache-tomcat-7.0.42" />
   <property name="work.home"    value="${basedir}/work"/>
   <property name="dist.home"     value="${basedir}/dist"/>
   <property name="src.home"      value="${basedir}/src"/>

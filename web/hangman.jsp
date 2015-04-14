@@ -19,7 +19,7 @@
 		<img id="Img" src='images/hangman.png' height=150 width=150 alt=''/>
 		<div id="test_code"></div>
 		<c:forTokens var="letter" items="${alphabet}" delims=",">
-			<button onclick="changePic(this)" value="${letter}" id="${letter}" >${letter}</button>
+			<button onclick="changePic(this)" value="${letter}" id="${letter}" class="alph_letter" >${letter}</button>
 		</c:forTokens>
 	<div>
 		<button onclick="resetGame()" value="">New Game</button>
